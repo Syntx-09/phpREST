@@ -1,2 +1,2 @@
 # phpREST
-A simple PHP RESTful with login
+A simple PHP login and signup with RESTful Api.. Frontend can be hosted sepeately from backend.
