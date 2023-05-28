@@ -4,7 +4,7 @@ var status;
 
 signup.addEventListener('click', () => {
     const formData = new FormData(document.querySelector('form'))
-    fetch('http://localhost:8000/model.php', {
+    fetch('http://localhost:8000/signup.php', {
         method: 'POST',
         body: formData
     })

@@ -4,7 +4,7 @@ const login = document.getElementById('login');
 login.addEventListener('click', () => {
     
     const formData = new FormData(document.querySelector('form'))
-    fetch('http://localhost:8000/login.php', {
+    fetch('http://185.27.134.219/login.php', {
         method: 'POST',
         body: formData,
         credentials: 'include'

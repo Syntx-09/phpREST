@@ -1,4 +1,5 @@
 <?php
+include './model.php';
 
 function signup($pdo)
 {
