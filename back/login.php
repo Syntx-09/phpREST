@@ -54,3 +54,5 @@ function login($pdo)
         }
     }
 }
+
+echo "Frrr";

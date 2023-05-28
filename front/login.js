@@ -4,10 +4,10 @@ const login = document.getElementById('login');
 login.addEventListener('click', () => {
     
     const formData = new FormData(document.querySelector('form'))
-    fetch('http://185.27.134.219/login.php', {
+    fetch('http://localhost:8000/login.php', {
         method: 'POST',
         body: formData,
-        credentials: 'include'
+        // credentials: 'include'
     })
     .then(res => {
         status = res.status
