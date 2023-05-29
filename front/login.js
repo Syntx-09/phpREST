@@ -4,7 +4,7 @@ const login = document.getElementById('login');
 login.addEventListener('click', () => {
     
     const formData = new FormData(document.querySelector('form'))
-    fetch('http://php-rest.vercel.app:8000/back/login.php', {
+    fetch('https://php-rest.vercel.app:8000/back/login.php', {
         method: 'POST',
         body: formData,
         credentials: 'include'
